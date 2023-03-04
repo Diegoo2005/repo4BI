@@ -3,10 +3,13 @@ package Poligono;
 public class Triangolo {
 private float base;
 private float altezza;
-
+public float areaTriangolo() {
+	return base*altezza;
+}
 public float getBase() {
 	return base;
 }
+
 public void setBase(float base) {
 	this.base = base;
 }
